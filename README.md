@@ -19,4 +19,13 @@ The command loop consists of the following three commands:
     
 USES: Abstract superclass called "Instruction" with a pure virtual function called "execute". The instructions such as DEC, LDA, or ADD are subclasses with a unique implementation of the execute function. Also uses a "Hardware" class to hold the value of the registers, status bits and memory.
 
-USE fib.txt as the input.
+USE fib.txt as the input. The output should be :
+
+Zero bit = 1
+Overflow bit = 0
+Register A = 0
+Register B = -1
+PREV = 267914296
+RESULT = 433494437
+NTHTERM = 0
+DECREMENTOR = -1
