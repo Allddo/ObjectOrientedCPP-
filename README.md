@@ -18,3 +18,5 @@ The command loop consists of the following three commands:
     q– Quit the command loop.
     
 USES: Abstract superclass called "Instruction" with a pure virtual function called "execute". The instructions such as DEC, LDA, or ADD are subclasses with a unique implementation of the execute function. Also uses a "Hardware" class to hold the value of the registers, status bits and memory.
+
+USE fib.txt as the input.
